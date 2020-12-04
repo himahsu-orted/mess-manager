@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mess Manager</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div id="titlename">Mess Manager</div>
+    <div>
+        <button id="wifiButton" onclick="makeWifiOn()">Wifi Off</button>
+    </div>
+    <div id="input">
+        <input type="number" id="idNumber" placeholder="StudentID">
+        <div id="costs">
+            <button id="Item1" class="buttonItems" onclick="pushData(this)">Meal 1</button>
+            <button id="Item2" class="buttonItems" onclick="pushData(this)">Meal 2</button>
+            <button id="Item3" class="buttonItems" onclick="pushData(this)">Meal 3</button>
+            <button id="Item4" class="buttonItems" onclick="pushData(this)">Meal 4</button>
+        </div>
+    </div>
+    <div id="ledBox">
+        <h4>LED STATUS</h4>
+    </div>
+</body>
+<script src="index.js"></script>
+
+</html>
